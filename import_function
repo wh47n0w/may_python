@@ -1,5 +1,6 @@
 import csv
+import datetime
 with open('evals.csv', 'r') as file:
-reader = csv.reader(file)
-for row in reader:
-print(row[5])
+    reader = csv.reader(file)
+    for row in reader:
+        print(row[5])
